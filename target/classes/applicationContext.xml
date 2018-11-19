@@ -109,5 +109,6 @@
     </bean>
 
     <!--通过p命名空间简化Bean的配置-->
-    <bean id ="person4" class="com.shenpotato.springdemo.Person" p:name="Mike" p:age="26" p:car-ref="cars"></bean>
+    <bean id ="person4" class="com.shenpotato.springdemo.Person" p:name="Mike"
+          p:age="26" p:car-ref="cars"></bean>
 </beans>
