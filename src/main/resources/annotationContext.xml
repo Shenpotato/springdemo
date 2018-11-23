@@ -22,11 +22,14 @@
     </context:component-scan>
     -->
     <!-- context:include-filter子节点指定包含哪些表达式的组件，该子节点需要user-default-filters配合使用-->
-    <context:component-scan
-            base-package="com.shenpotato.springannotation"
-            use-default-filters="false">
-        <context:include-filter type="assignable"
-                expression="com.shenpotato.springannotation.repository.UserRepositoryImpl"/>
+    <!--    <context:component-scan
+                base-package="com.shenpotato.springannotation"
+                use-default-filters="false">
+            <context:include-filter type="assignable"
+                    expression="com.shenpotato.springannotation.repository.UserRepositoryImpl"/>
+        </context:component-scan>-->
+    <context:component-scan base-package="com.shenpotato.springannotation">
+
     </context:component-scan>
 
 </beans>

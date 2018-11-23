@@ -12,8 +12,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Main8 {
     public static void main(String[] args) {
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("springannotation.xml");
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("annotationContext.xml");
 
+        /*@Component,@Controller,@Service,@Reposity测试
         TestObject testObject = (TestObject) applicationContext.getBean("testObject");
         System.out.println(testObject);
 
@@ -25,7 +26,11 @@ public class Main8 {
 
         UserRepository userRepository = (UserRepository)applicationContext.getBean("userRepository");
         System.out.println(userRepository);
+        */
 
+        UserController userController = (UserController)applicationContext.getBean("userController");
+        System.out.println(userController);
+        userController.execute();
 
     }
 }
