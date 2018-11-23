@@ -10,6 +10,6 @@
         但实际返回的实例却是FactoryBean的getObject()方法返回的实例
     -->
     <bean id ="car" class="com.shenpotato.springfactorybean.CarFactoryBean">
-        <property name="brand" value="Audi"></property>
+        <property name="brand" value="A"></property>
     </bean>
 </beans>
