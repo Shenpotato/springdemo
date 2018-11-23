@@ -35,5 +35,24 @@
   通过导入外部属性文件和${}用法，实现外部属性引用的功能</br>
   注意代码由于未配置mysql，无法运行，只是为了使不报错导入了c3p0的包
 </p>
-
+<p>
+  <h3>springspel</h3>
+  通过spel实现bean的赋值、bean的引用另一个bean、以及单个属性，静态方法和静态属性的调用</br>
+</p>
+<p>
+  <h3>springlifecycle</h3>
+  实现了一个bean从创建初试化到最后destroy的过程</br>
+</p>
+<p>
+  <h3>springlifecycle</h3>
+  模拟了一个bean从创建初试化到最后destroy的过程</br>
+</p>
+<p>
+  <h3>springbeanfactory</h3>
+  通过静态工厂方法和实例化工厂两种方式实现对于bean的装配</br>
+</p>
+<p>
+  <h3>springannotation</h3>
+  基于注解对bean进行配置</br>
+</p>
 
